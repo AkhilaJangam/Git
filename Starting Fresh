@@ -1,0 +1,15 @@
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % pwd
+/Users/akhilajangam
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % mkdir Projects
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % pwd
+/Users/akhilajangam
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % cd Projects
+(base) akhilajangam@Akhilas-MacBook-Pro Projects % pwd
+/Users/akhilajangam/Projects
+(base) akhilajangam@Akhilas-MacBook-Pro Projects % git init git-demo
+Initialized empty Git repository in /Users/akhilajangam/Projects/git-demo/.git/
+(base) akhilajangam@Akhilas-MacBook-Pro Projects % ls
+git-demo
+(base) akhilajangam@Akhilas-MacBook-Pro Projects % ls -a
+.		..		git-demo
+(base) akhilajangam@Akhilas-MacBook-Pro Projects % 
