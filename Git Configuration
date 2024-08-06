@@ -1,0 +1,54 @@
+Configuration Commands
+Git Configuration Commands
+What's the current directory (present working directory)?
+pwd
+Git Config (Global/User-level) Syntax
+git config --global setting value
+Configure User and Email
+General Syntax:
+
+git config --global user.name "Your Name"
+git config --global user.email "you@someplace.com"
+Example using course author's information:
+
+git config --global user.name "Jason Taylor"
+git config --global user.email "jason@jasongtaylor.com"
+Listing All Global Configuration Settings
+git config --global --list
+Seeing Git's User-based Config file
+cat ~/.gitconfig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Last login: Tue Aug  6 06:20:59 on ttys000
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % pwd
+/Users/akhilajangam
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % git config --global user.name "Akhila"
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % git config --global user.email "akhila.stalin@gmail.com"
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % git congif --global --list
+git: 'congif' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % git config --global --list
+user.name=Akhila
+user.email=akhila.stalin@gmail.com
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % cat ~/.gitconfig
+[user]
+	name = Akhila
+	email = akhila.stalin@gmail.com
+(base) akhilajangam@Akhilas-MacBook-Pro ~ % 
